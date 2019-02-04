@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="icons/Anchor-512.png">
+        <meta charset="utf-8">
+        <meta name="description" content="Judah Marsh about">
+        <meta name="author" content="Judah Marsh">
+        <meta property="og:description" content="About Judah Marsh">
+        <meta property="og:title" content="Mozilla Developer Network">
+        <title>
+        Judah Marsh
+        </title>
+        
+<script>
+    function openTab(cityName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(cityName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+    </head>
+    
+    <header lang="en">
+        <a href="#_judah_marsh" 
+           id = "nav-toggle"
+           class="burger_menu_toggle"
+           aria-label = "Open">
+        </a>
+        
+        <h1 class="logo">Judah Marsh</h1>
+        
+        <div id="About" class="tabcontent">
+              <h1>About</h1>
+              <p>Judah is the capital city of England.</p>
+            </div>
+
+            <div id="skills" class="tabcontent">
+              <h1>Skills</h1>
+              <p>I don't know who you are. I don't know what you want. If you are looking for ransom I can tell you I don't have money, but what I do have are a very particular set of skills. Skills I have acquired over a very long career. Skills that make me a nightmare for people like you. If you let my daughter go now that'll be the end of it. I will not look for you, I will not pursue you, but if you don't, I will look for you, I will find you and I will kill you."</p> 
+            </div>
+
+            <div id="projects" class="tabcontent">
+              <h1>Projects</h1>
+              <p>Done some projects.</p>
+            </div>
+
+            <div id="exp" class="tabcontent">
+              <h1>Experience</h1>
+              <p>Got some exp.</p>
+            </div>
+        
+        <button class="tablink" onclick="openTab('about', this, 'red')" id="defaultOpen">About</button>
+        <button class="tablink" onclick="openTab('skills', this, 'green')">Skills</button>
+        <button class="tablink" onclick="openTab('projects', this, 'blue')">Projects</button>
+        <button class="tablink" onclick="openTab('exp', this, 'orange')">Experience</button>
+        
+        <a href="#navigation-toggle"
+           class="backdrop"
+           tabindex = "-1"
+           aria-hidden="true"
+           hidden>
+        </a>
+    </header>
+    
+    <body lang="en">
+        <p>body</p>
+        
+    </body>
+
+</html>
