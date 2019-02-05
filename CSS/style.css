@@ -40,7 +40,7 @@ h1{
   cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
+icon-bar {
   width: 35px;
   height: 5px;
   background-color: #333;
