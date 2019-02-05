@@ -33,6 +33,7 @@ p{
 }
 h1{
     color: black;
+<<<<<<< HEAD
 }
 
 .container {
@@ -58,4 +59,6 @@ icon-bar {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+=======
+>>>>>>> bb258420f7a062cfe70f2c16ce52b3b90e81cfec
 }
